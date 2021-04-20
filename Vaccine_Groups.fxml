@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.VaccineGroupsController">
+   <children>
+      <Label layoutX="21.0" layoutY="14.0" text="Vaccination Progress in Ireland " />
+      <Label layoutX="21.0" layoutY="90.0" text="First Doses Administered:" />
+      <Label layoutX="21.0" layoutY="175.0" text="Second Doses Administered:" />
+      <Label layoutX="21.0" layoutY="266.0" text="Total Vaccines Administered:" />
+      <Label layoutX="279.0" layoutY="90.0" text="495,824" />
+      <Label layoutX="279.0" layoutY="175.0" text="184,191" />
+      <Label layoutX="279.0" layoutY="266.0" text="680,015" />
+      <Button layoutX="479.0" layoutY="338.0" mnemonicParsing="false" onAction="#ReturnToMenuButtonPushed" text="Return to Menu" />
+   </children>
+</AnchorPane>
